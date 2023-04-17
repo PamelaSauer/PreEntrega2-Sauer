@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* -----------NAVIGATION BAR----------------- */
+  
+  .home-container {
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    overflow-x: hidden;
+  }
+  
+  .bar-navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-title {
+    font-size: 50px;
+    font-weight: bold;
+    height: 100px;
+    width: 400px;
+    margin-left: 20px;
+    padding: 5px 5px;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 0 10px;
+    line-height: 100px;
+    padding: 8px 12px;
+    border-radius: 5px;
+  }
+  
